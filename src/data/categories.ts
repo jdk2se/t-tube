@@ -1,4 +1,4 @@
-export const categories = [
+export default [
     "All",
     "Warhammer 40k",
     "Warhammer Fantasy Battles",
