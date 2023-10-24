@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Works only in Chrome */
 *::-webkit-scrollbar {
     @apply bg-transparent w-2;
 }
@@ -12,4 +13,8 @@
 
 .scrollbar-hidden::-webkit-scrollbar-thumb {
     @apply bg-transparent;
+}
+
+.scrollbar-hidden:hover::-webkit-scrollbar-thumb {
+    @apply bg-secondary-border;
 }
